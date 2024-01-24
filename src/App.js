@@ -1,4 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
+import "./index.css";
+
 import {
   About,
   Contact,
@@ -9,9 +10,11 @@ import {
   ScrollTop,
   Services,
 } from "./components";
-import styled from "styled-components";
+import React, { useContext, useEffect, useState } from "react";
+
 import { CircleLoader } from "react-spinners";
 import { ThemeContext } from "./context/ThemeContext";
+import styled from "styled-components";
 
 const Modal = styled.div`
   position: fixed;
